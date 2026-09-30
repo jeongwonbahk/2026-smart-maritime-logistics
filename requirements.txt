@@ -1,0 +1,16 @@
+# 스마트항만 LLM 검증 시스템 - 필요 라이브러리
+# 설치: pip install -r requirements.txt
+
+streamlit              # UI 화면
+sentence-transformers  # 문장 임베딩 (한국어 모델 포함)
+chromadb               # Vector DB (로컬 저장)
+openai                 # OpenAI API (사용 시)
+anthropic              # Anthropic Claude API (사용 시)
+python-dotenv          # .env에서 API 키 불러오기
+pypdf                  # PDF 텍스트 추출
+pandas                 # 데이터·평가셋 처리
+numpy                  # 수치 계산
+scikit-learn           # cosine 유사도 등
+
+# 참고: 위 버전은 최신으로 설치됩니다. 특정 버전 문제 발생 시
+# 예) streamlit==1.38.0 처럼 버전을 고정하세요.

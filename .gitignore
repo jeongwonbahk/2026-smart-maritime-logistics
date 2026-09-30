@@ -1,0 +1,32 @@
+# ===== API 키 (★ 절대 올리지 말 것) =====
+.env
+.env.*
+*.key
+
+# ===== Vector DB (용량 큼, data_prep.py로 재생성) =====
+chroma_db/
+*.sqlite3
+*.faiss
+
+# ===== 원본 규정 문서 (저작권) =====
+documents/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# ===== OS / 에디터 =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== 임시 =====
+*.log
+*.tmp
+*.bak.csv
